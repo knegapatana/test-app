@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header("hi bb!")
+st.title("hey hehe")
 st.subheader(
     "i just started so this page doesn't have much and is pretty lame")
 st.write("u good?")
@@ -18,4 +18,5 @@ yes_button = st.button("yes", on_click=clicked_yes)
 no_button = st.button("no", on_click=clicked_no)
 
 st.image("bishan.png", caption="some bishan amk park scenery to motivate you")
+
 
